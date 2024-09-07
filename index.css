@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background-color: #f3f4f6;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    color: #556cd6;
+    font-size: 3em;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    padding: 12px;
+    width: 70%;
+    max-width: 500px;
+    border: 2px solid #dde1e7;
+    border-radius: 30px;
+    font-size: 1.1em;
+    margin-right: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+input[type="text"]:focus {
+    border-color: #556cd6;
+    outline: none;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    background-color: #556cd6;
+    color: white;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 15px rgba(85, 108, 214, 0.3);
+}
+
+button:hover {
+    background-color: #445bb3;
+    box-shadow: 0 8px 20px rgba(85, 108, 214, 0.5);
+}
+
+div {
+    text-align: center;
+}
+
+#newtodo div {
+    background-color: #ffffff;
+    color: #333;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#newtodo button {
+    background-color: #ff6b6b;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 0.9em;
+    margin-left: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#newtodo button:hover {
+    background-color: #e05555;
+    box-shadow: 0 6px 12px rgba(255, 107, 107, 0.5);
+}
